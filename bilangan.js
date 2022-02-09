@@ -59,7 +59,7 @@ app.get("/convert/oktal/:oktal", (req,res) => {
     let h = d.toString(16)
 
     res.send({
-        oktal : b,
+        oktal : o,
         result : {
             decimal : d,
             biner : b,
